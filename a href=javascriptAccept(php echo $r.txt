@@ -1,0 +1,61 @@
+ <a href="javascript:Accept(<?php echo $rows['property_id']; ?>,<?php echo $rows['home_seeker_id']; ?>)" >Accept</a>
+----------------------------------
+   <a href="javascript:decline(<?php echo $rows['property_id']; ?>,<?php echo $rows['home_seeker_id']; ?>)" >decline</a>
+------------------------------------------------------------------------------
+  <script>
+        
+      
+
+      function Accept(Pid,Sid) {
+          //var id = id;
+         
+        $.ajax({
+            type: "POST",
+            url: "Accept.php",
+            dataType: "json",
+            data: {Pid: Pid,Sid:Sid},
+                
+            success : (response) => {
+                console.log(response);
+               // setInterval('refreshPage()', 1000);
+
+                //var myElement = document.getElementById("As"+Aid);
+              //  myElement.innerHTML = "Accept";
+               // 
+             //$('#As').html(response);
+               
+               
+               
+               //location.reload(true);
+
+                //document.getElementById('ad'+id).remove();
+                 //$(this).remove();
+            },
+
+            error : (response) => {
+
+            }
+        })
+        
+    }
+    
+    
+     function decline(Pid,Sid) {
+        $.ajax({
+            type: "POST",
+            url: "decline.php",
+            data: {Pid: Pid,Sid:Sid},                
+            success : (response) => {
+                console.log(response);
+                // var myElement = document.getElementById("As");
+               // myElement.innerHTML = "decline";
+                
+            },
+
+            error : (response) => {
+
+            }
+        })
+        
+    }
+    </script>

@@ -1,0 +1,92 @@
+.footer{
+  position:unset;
+  margin-top: auto;
+}
+
+main {
+  height: 100vh;
+  /* background-color: red; */
+}
+
+.top-main{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+.top-main a {
+  background-color: #333D29;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.3rem 1rem;
+  border-radius: .3rem;
+  margin: 1rem;
+  transition: .3s ease-in-out;
+}
+
+.top-main a:hover {
+  background-color: #757972;
+}
+
+
+.propinfo {
+  background-color: #858b7f;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin: 3rem;
+  color: white;
+  min-width: 70vw;
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery img {
+  border-radius: 1rem;
+  margin: 1rem;
+  /* border: 1px solid #374255;  */
+  box-shadow: 1px 1px 3px black;
+  max-height: 25rem;
+  transition: .3s ease-in-out;
+}
+
+.gallery img:hover {
+  opacity: .8;
+}
+
+.gallery div {
+  margin: 2rem;
+}
+
+.gallery div:hover {
+  border-radius: 1rem;
+  box-shadow: 1px 1px 3px darkgray;
+}
+
+.mymain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.formrow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 1rem;
+}
+
+input, select, textarea {
+  width: 20rem;
+  border-radius: .3rem;
+  padding: .3rem;
+  outline: none;
+}

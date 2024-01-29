@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sign-up</title>
+	<meta charset="utf-8">
+	<link rel="Stylesheet" href="general.css">
+	<link rel="stylesheet" href="Signup.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--<link rel="stylesheet" href="General.css">-->
+	<script src="Signup.js"></script>  
+
+</head>
+
+<body>
+<header>
+
+   <img src="logo3.png" alt="logo" id="logo">
+      <div id="under-header"></div>  
+</header>
+
+     <!--breadcrumb-->
+        <ul class="breadcrumb">
+  <li><a href="index.php">Home</a></li>
+  <li>Sign-up</li>
+   </ul>
+
+        <main>
+
+
+
+            <form name="form1" id="formID" action="signup.php" method="POST" onsubmit="return login();">
+                <fieldset>
+                    <legend><h3>Sign-up</h3></legend>
+
+                    <label for="firstname"> First name:</label><br>
+                    <input type="text" id="firstnameid" name="name" value="" accesskey="n"><br>
+
+                    <label for="lastname"> Last name:</label><br>
+                    <input type="text" id="lastnameid" name="name" value="" accesskey="l"><br>
+
+                    <label for="age">Age:</label><br>
+                    <input type="number" id="age" name="age" accesskey="d"><br>
+                    <label for="age">Number of family members:</label><br>
+                    <input type="number" id="family" name="family" accesskey="f"><br>
+
+                    <label for="income">income:</label><br>
+                    <input type="number" id="income" name="income" accesskey="i"><br>
+
+                    <label for="job"> Job:</label><br>
+                    <input type="text" id="job" name="job" value="" accesskey="j"><br>
+
+                    <label for="phoneNo">Phone Number:</label><br>
+                    <input type="tel" id="phoneNo" name="phoneNo" accesskey="p"><br>
+
+                    <label for="email">Email address:</label><br>
+                    <input type="email" id="email" name="email" value="" accesskey="e"><br>
+
+                    <label for="pwd">Password:</label><br>
+                    <input type="password" id="pwd" name="pwd"><br><br>
+
+
+                    <input class="b" type="submit" value="Sign-up" accesskey="s" onclick="login(); return false;">
+
+                </fieldset>
+            </form>
+            <br /><br /><br /><br /><br />
+
+
+        </main>
+
+    <footer>
+         <div class="foot">
+
+              <div class="w3-xlarge w3-section">
+                  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+                  <i class="fa fa-instagram w3-hover-opacity"></i>
+                  <i class="fa fa-snapchat w3-hover-opacity"></i>
+                  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+                  <i class="fa fa-twitter w3-hover-opacity"></i>
+                  <i class="fa fa-linkedin w3-hover-opacity"></i>
+              </div>
+                <p>@2023 Home Properties</p>
+        </div>
+    </footer>
+</body>
+
+
+</html>

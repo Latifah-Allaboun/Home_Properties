@@ -1,0 +1,187 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+
+
+table {
+  border-collapse: collapse;
+  width: 70%;
+     margin-left: auto;
+  margin-right: auto;
+          border: solid 1px white;
+         margin-bottom:100px; 
+
+
+}
+
+h1,p {
+    font-weight:bold;
+}
+p{
+    font-size:large;
+    float:inline-end;
+
+}
+th , td{
+   
+    text-align: center;
+            border: solid 1px;
+          padding-top:10px;
+          padding-bottom:10px;
+
+
+
+}
+
+
+
+tr{
+    
+            border: solid 1px;
+
+}
+
+tbody{
+      background:#C2C5AA;
+  
+}
+
+thead{
+    
+    background:#C2C5AA;
+    color: white;
+}
+
+
+caption{
+   background-color: #656D4A;
+	color: #fff;
+	font-size: x-large;
+	font-weight: bold;
+        width:100%;
+padding-top:   20px; 
+padding-bottom:   20px; 
+margin:0;
+
+}
+
+a:link {
+  text-decoration: none;
+}
+
+
+
+ a:hover.property-name ,  a:hover.Applicant-name {
+  text-decoration: underline;
+  color:#656D4A;
+}
+
+a:active {
+  text-decoration: underline;
+}
+.accept{
+    
+    color:green;
+}
+
+.decline , .delete{
+    color:#D10000;
+}
+
+a:hover.decline, a:hover.accept, a:hover.delete {
+    font-weight: bold;
+}
+
+
+.property-name, .Applicant-name {
+    color: #936639;
+}
+.log-out{
+    
+    color:#936639;
+}
+
+ a:hover.log-out {
+  text-decoration: underline;
+  color:#7F4F24;
+}
+
+.log-out {
+      position: absolute;
+   right:100px;
+   font-size:20px;
+   margin-top:-70px;
+   font-weight:bold;
+}
+
+
+
+
+body{
+    position:relative;
+    padding-bottom:50px;
+}
+
+.select{
+    margin-left: 75%;
+    font-weight:bold;
+    font-size:medium;
+}
+.Apply, .Withdraw, .Delete {
+    color: #582F0E;
+}
+a:hover.Apply, a:hover.Withdraw, a:hover.Delete {
+    font-weight: bold;
+}
+a:hover.Add-Property {
+    color: #582F0E;
+    text-decoration:underline;
+}
+
+
+button.b {
+    color: white;
+    background-color: darkolivegreen;
+    border: none;
+    text-align: center;
+    border-radius: 16px;
+    /*margin-left:700px;*/
+    opacity: 0.8;
+    font-size: 1rem;
+    padding: 0.5% 3%;
+    float:right;
+    
+    margin-top:20px;
+    margin-right:10px;
+}
+
+
+select {
+    color: #582F0E;
+}
+
+
+
+
+
+
+
+#owner-info{
+  padding:70px;
+}
+
+#welcome{
+    
+        text-decoration: underline ;  
+    text-decoration-color: #656D4A;
+        margin-top:-70px;
+
+}
+
+#infoPre{
+    
+    margin-left:-120px;
+    margin-top:-20px;
+}
+

@@ -1,0 +1,86 @@
+form{
+ height: 50%;
+ width: 95%;
+ margin-left: 2%;
+ margin-right: 2%;
+ margin-top: 2%;
+ margin-bottom:2%;
+ text-align : justify;
+ }
+background{ 
+color: blanchedalmond;
+
+}
+ h3{
+  color: #333D29;
+  font-weight : bold;
+  text-shadow: .2em .2em .3em #C2C5AA;
+ }
+ 
+ input{
+  background-color : #C2C5AA ;
+  border: none;
+  text-align: center;
+  border-radius: 16px; 
+  opacity: 0.8;
+  font-size: 1rem;
+   width: 35%;
+  padding: 1% 1%;
+  margin: 1px 0;
+ }
+label {
+    font-family: "Times New Roman", serif;
+    text-shadow: .2em .2em .3em #C2C5AA;
+    font-size: 20px;
+}
+ 
+ input[type=submit]{
+  border: 2px solid #e9eef5;
+  background-color:darkolivegreen;
+  background-color:#333D29; 
+  color: #e9eef5;
+ }
+ 
+ #display p{
+ margin-left: 2%;
+ }
+/*
+body{
+    background-image:url("house6.jpg");
+    background-size: cover;
+    margin:0;
+}*/
+
+
+header , footer {
+    opacity: 0.6;
+}
+
+#all{
+    background-color: #333D29;
+    color: white;
+    height: 90%;
+    width: 30%;
+    margin-left: 750px;
+    margin-top: 170px;
+    text-align: center;
+    opacity: 0.7;
+    border-radius: 16px; 
+}
+
+
+  .b {
+  color:#333D29;
+  background-color:white;  
+  border: none;
+  text-align: center;
+  border-radius: 16px; 
+  opacity: 0.8;
+  font-size: 1rem;
+   width: 25%;
+  padding: 1% 1%;
+  margin: 1px 0;
+}
+
+
+
